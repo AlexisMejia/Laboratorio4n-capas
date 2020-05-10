@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans" sans-serif;
+    background: white;
+    color: #7f888f;
+    line-height: 1.65;
+}
+
+.container{
+    padding: 0em 4em 0em 4em;
+}
+
+.container .main .inner .header{
+    padding-top: 3em;
+    padding-bottom: 0.1em;
+    border-bottom: solid 3px coral;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .main .inner .header a{
+    text-decoration: none;
+    margin: 0 0 5px 20px;
+}
+
+.header .logo{
+    border-bottom: 0;
+    color: inherit;
+    font-family: "Roboto Slab", serif;
+    font-size: 2em;
+}
+
+.container .main .inner .header strong{
+    background: coral;
+    color: white;
+}
+
+.formcont{
+	margin: 2em;
+}
+
+.form-group{
+	margin: 2em;
+}
+
+.btn{
+	background: #7f888f;
+	color: white;
+	padding: 0.5em;
+}
+
+.btn:hover{
+	background: white;
+	color: #7f888f;
+}
